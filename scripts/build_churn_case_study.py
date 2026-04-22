@@ -546,7 +546,7 @@ def build_deck(
     top_segment = segments.head(1).iloc[0]
 
     slide = prs.slides.add_slide(blank)
-    text_box(slide, "Hotels.com churn case study", 0.7, 0.75, 11.8, 0.7, 34, True, COLORS["ink"])
+    text_box(slide, "Expedia churn case study", 0.7, 0.75, 11.8, 0.7, 34, True, COLORS["ink"])
     text_box(slide, "Explainable booking-level model and retention actions", 0.75, 1.55, 11.6, 0.5, 18, False, COLORS["gray"])
     add_metric_card(slide, "Historic booking-level churn", pct(base_churn), 0.8, 2.65, COLORS["red"])
     add_metric_card(slide, "Holdout ROC-AUC", f"{best['roc_auc']:.3f}", 3.75, 2.65, COLORS["blue"])
@@ -717,14 +717,14 @@ def build_deck(
         20,
     )
 
-    path = DECK_DIR / "Hotels_Churn_Case_Study_Executive_Deck.pptx"
+    path = DECK_DIR / "Expedia_Churn_Case_Study_Executive_Deck.pptx"
     prs.save(path)
     return path
 
 
 def write_readme(validation: dict, metrics: pd.DataFrame, deck_path: Path) -> None:
     best = metrics.iloc[0]
-    content = f"""# Hotels.com Churn Case Study
+    content = f"""# Expedia Churn Case Study
 
 This folder contains the full reproducible case-study package.
 

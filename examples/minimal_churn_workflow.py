@@ -112,7 +112,7 @@ def evaluate(df: pd.DataFrame) -> dict[str, float]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Minimal Hotels.com churn workflow")
+    parser = argparse.ArgumentParser(description="Minimal Expedia churn workflow")
     parser.add_argument("csv_path", type=Path, help="Path to the case-study CSV file")
     args = parser.parse_args()
 

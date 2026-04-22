@@ -1,6 +1,6 @@
 # Expedia Churn Case Study - Source Code
 
-This repository contains the source code and notebook for a booking-level churn case study for Hotels.com.
+This repository contains the source code and notebook for a booking-level churn case study for Expedia.
 
 The objective was to:
 
@@ -10,7 +10,7 @@ The objective was to:
 
 ## Repository Contents
 
-- `Hotels_Churn_Case_Study.ipynb`  
+- `Expedia_Churn_Case_Study.ipynb`  
   Main notebook containing the analysis workflow
 
 - `scripts/build_churn_case_study.py`  
