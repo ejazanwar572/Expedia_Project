@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local outputs and models
+outputs/
+outputs_notebook/
+outputs_simple/
+
+# Raw source data should not be committed
+*.csv
+*.xlsx
+*.xls
+*.parquet
