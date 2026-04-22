@@ -1,4 +1,4 @@
-# Hotels.com Churn Case Study - Source Code
+# Expedia Churn Case Study - Source Code
 
 This repository contains the source code and notebook for a booking-level churn case study for Hotels.com.
 
